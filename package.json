@@ -7,7 +7,8 @@
     "build": "browserify --entry index.js --outfile bundle.js",
     "buildbabel": "browserify --entry index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env] ]",
     "buildw": "watchify index.js -o bundle.js -v",
-    "buildwbabel": "watchify --entry index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env] ] -v"
+    "buildwbabel": "watchify --entry index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env] ] -v",
+    "watchify": "watchify --entry index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env] ] -v"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@ const $ = require('jQuery');
 let greeting = () => console.log('tamuna');
 greeting();
 
-$(document.body).css("background-color", "red");
+$(document.body).css("background-color", "yellow");
 
 
 // fetch('https://jsonplaceholder.typicode.com/todos/1')
